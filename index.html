@@ -91,7 +91,7 @@ Initialized Git repo in ~/testrepo2/.git/
 	</div>
 
 	<div class="step problem title" data-x="3000" data-y="0">
-		<h2>問題①</h2>
+		<h2>問題</h2>
 	</div>
 
 	<div class="step problem wide" data-x="4500" data-y="0">
@@ -128,7 +128,7 @@ Initialized Git repo in ~/testrepo2/.git/
 		</div>
 	</div>
 
-	<div class="step problem wide" data-x="9000" data-y="0">
+	<div class="step problem" data-x="9000" data-y="0">
 		<div class="centerdiv">
 			<pre><span class="ef11">$</span> <code class="bash">git add --patch README</code>
 <span class="f6">@@ -1 +1,4 @@</span>
@@ -136,18 +136,18 @@ Initialized Git repo in ~/testrepo2/.git/
 <span class="f2">+</span>
 <span class="f2">+</span>
  Initial README.
-<span class="bold"><span class="f4">Stage this hunk [y,n,q,a,d,/,j,J,g,e,?]? </span></span>yes</pre>
+<span class="bold"><span class="f4">Stage this hunk [y,n,q,a,d]? </span></span>yes</pre>
 		</div>
 	</div>
 
-	<div class="step problem wide" data-x="9000" data-y="500">
+	<div class="step problem" data-x="9000" data-y="500">
 		<div class="centerdiv">
 			<pre><span class="f6">@@ -1 +4,4 @@</span>
  Initial README.
 <span class="f2">+</span>
 <span class="f2">+</span>
 <span class="f2">+この行を追加したくない</span>
-<span class="bold"><span class="f4">Stage this hunk [y,n,q,a,d,/,K,g,e,?]? </span></span>no
+<span class="bold"><span class="f4">Stage this hunk [y,n,q,a,d]? </span></span>no
 <span class="ef11">$</span> </pre>
 		</div>
 	</div>
@@ -170,7 +170,7 @@ Initialized Git repo in ~/testrepo2/.git/
 		</div>
 	</div>
 
-	<div class="step problem wide" data-x="12000" data-y="0">
+	<div class="step problem" data-x="12000" data-y="0">
 		<div class="centerdiv">
 			<pre><span class="ef11">$</span> <code class="bash">git diff --cached</code>
 <span class="bold">diff --git a/README b/README</span>
@@ -186,7 +186,7 @@ Initialized Git repo in ~/testrepo2/.git/
 		</div>
 	</div>
 
-	<div class="step problem wide" data-x="13500" data-y="0">
+	<div class="step problem" data-x="13500" data-y="0">
 		<div class="centerdiv">
 			<pre><span class="ef11">$</span> <code class="bash">git diff</code>
 <span class="bold">diff --git a/README b/README</span>
@@ -220,7 +220,7 @@ Initialized Git repo in ~/testrepo2/.git/
 		</div>
 	</div>
 
-	<div class="step problem wide" data-x="16500" data-y="0">
+	<div class="step problem" data-x="16500" data-y="0">
 		<div class="centerdiv">
 			<pre><span class="ef11">$</span> <code class="bash">git diff</code>
 <span class="bold">diff --git a/README b/README</span>
@@ -238,6 +238,16 @@ Initialized Git repo in ~/testrepo2/.git/
 		</div>
 	</div>
 
+	<div class="step problem title" data-x="18000" data-y="0">
+		<h2>コマンド</h2>
+		<p><span class="">$</span> git add <b>--patch</b></p>
+		<p><span class="">$</span> git checkout <b>--patch</b></p>
+		<p><span class="">$</span> git diff --cached</p>
+	</div>
+
+	<div class="step problem title" data-x="18000" data-y="600">
+		<p><span class="">$</span> git config color.ui auto</p>
+	</div>
 
 <!--
 
